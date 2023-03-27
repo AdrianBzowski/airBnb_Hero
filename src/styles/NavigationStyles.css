@@ -1,0 +1,47 @@
+/* Navigation */
+
+.nav__logo{
+    color: orangered;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    
+  }
+  
+  .App .nav--container {
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 20px 36px;
+   box-shadow: 0 4px 10px 3px rgba(114, 114, 114, 0.2);
+    
+  }
+  .nav__text {
+    color: orangered;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 2.5em;
+    padding:0;
+    margin:0;
+  }
+  .nav--linkContainer{
+    display: flex;
+    list-style-type: none;
+    flex: 3;
+    justify-content: end;
+    gap: 20px;
+  
+  }
+  .nav__pageLink a {
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 2.5em;
+    padding:0;
+    margin:0;
+  }
+  /* NAVIGATION END */

@@ -1,0 +1,78 @@
+/* Hero section */
+.hero--container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: whitesmoke;
+    color: black;
+  }
+  .hero--container .hero__tiles img{
+    max-width: 100%;
+    align-self: center;
+  }
+   .hero--container .hero__text {
+    text-align: left;
+  }  
+
+  /* Main section */
+.main--container {
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 36px;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .card--container {
+    max-width: 150px;
+    position: relative;
+  }
+  .card--container .card__status {
+    background-color: whitesmoke;
+    padding: 0px 5px;
+    border-radius: 5px;
+  }
+  .card--container .card__status {
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  
+  }
+  .card--container img {
+    max-width: 150px;
+    
+  }
+  .card--container .card__cardStar {
+    max-width: 15px;
+    max-height: 15px;
+    padding-top: 5px;
+  } 
+  .card--container .card--cardInfo p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .card--container .card--cardInfo p span {
+   font-weight: 600;
+  }
+  .card--container .card--cardInfo .card__notes,
+  .card--container .card--cardInfo .card__nationality {
+    color: gray;
+  }
+  .card--container .card--cardInfo .rating{
+    display: flex;
+    flex: 1;
+  }
+  .card--container .card--cardInfo .rating p {
+    padding: 0 3px;
+  }
+  .card--container .card--cardInfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    font-size: 12px;
+    font-weight: 500;
+  }
